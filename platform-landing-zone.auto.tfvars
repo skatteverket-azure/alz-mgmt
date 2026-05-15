@@ -36,14 +36,14 @@ custom_replacements = {
     defender_email_security_contact = "nadim.shanboor@skatteverket.se"
 
     # Resource provisioning global connectivity
-    ddos_protection_plan_enabled = false 
+    ddos_protection_plan_enabled = false
 
     # Resource provisioning primary connectivity
     primary_firewall_enabled                                             = true
     primary_firewall_sku_tier                                            = "Premium"
     primary_firewall_management_ip_enabled                               = true
-    primary_virtual_network_gateway_express_route_enabled                = false 
-    primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false 
+    primary_virtual_network_gateway_express_route_enabled                = false
+    primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false
     primary_virtual_network_gateway_vpn_enabled                          = true
     primary_private_dns_zones_enabled                                    = true
     primary_private_dns_auto_registration_zone_enabled                   = true
@@ -184,13 +184,13 @@ management_group_settings = {
     ama_user_assigned_managed_identity_name     = "$${ama_user_assigned_managed_identity_name}"
     log_analytics_workspace_id                  = "$${log_analytics_workspace_id}"
     #ddos_protection_plan_id                     = "$${ddos_protection_plan_id}"
-    private_dns_zone_subscription_id            = "$${subscription_id_connectivity}"
-    private_dns_zone_region                     = "$${starter_location_01}"
-    private_dns_zone_resource_group_name        = "$${dns_resource_group_name}"
-    resource_group_name_service_health_alerts   = "$${service_health_alerts_resource_group_name}"
-    resource_group_name_mdfc                    = "$${asc_export_resource_group_name}"
-    resource_group_location                     = "$${starter_location_01}"
-    email_security_contact                      = "$${defender_email_security_contact}"
+    private_dns_zone_subscription_id          = "$${subscription_id_connectivity}"
+    private_dns_zone_region                   = "$${starter_location_01}"
+    private_dns_zone_resource_group_name      = "$${dns_resource_group_name}"
+    resource_group_name_service_health_alerts = "$${service_health_alerts_resource_group_name}"
+    resource_group_name_mdfc                  = "$${asc_export_resource_group_name}"
+    resource_group_location                   = "$${starter_location_01}"
+    email_security_contact                    = "$${defender_email_security_contact}"
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
     allowed_locations = [
