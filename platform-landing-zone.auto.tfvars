@@ -36,14 +36,14 @@ custom_replacements = {
     defender_email_security_contact = "nadim.shanboor@skatteverket.se"
 
     # Resource provisioning global connectivity
-    ddos_protection_plan_enabled = false 
+    ddos_protection_plan_enabled = false
 
     # Resource provisioning primary connectivity
     primary_firewall_enabled                                             = true
     primary_firewall_sku_tier                                            = "Premium"
     primary_firewall_management_ip_enabled                               = true
-    primary_virtual_network_gateway_express_route_enabled                = false 
-    primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false 
+    primary_virtual_network_gateway_express_route_enabled                = false
+    primary_virtual_network_gateway_express_route_hobo_public_ip_enabled = false
     primary_virtual_network_gateway_vpn_enabled                          = true
     primary_private_dns_zones_enabled                                    = true
     primary_private_dns_auto_registration_zone_enabled                   = true
